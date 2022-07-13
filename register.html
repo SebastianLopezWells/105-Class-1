@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>User System</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>  
+            <div class="form-container">
+                <div class="form-control mb-3 lesser-margin ">
+                    <div class="input-group mb-3">
+                        <input type="text" id="txtName"      placeholder="Enter your name" class="form-control">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" id="txtLastName"       placeholder="Enter lastname"  class="form-control" >
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" id="txtAge"       placeholder="Enter lastname"  class="form-control" >
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" id="txtAddress"       placeholder="Enter lastname"  class="form-control" >
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" id="txtEmail"    placeholder="Enter pet's gender" class="form-control">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" id="txtPassword"    placeholder="Enter pet's gender" class="form-control">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" id="txtPasswordCom"     placeholder="Enter password again" class="form-control">
+                    </div>
+                    <label>Payment method</label>
+                    <div class="input-group mb-3">
+                        <select  id="txtPayment"   class="form-control">
+                            <option id="op1" value="Credit Card" selected>Credit Card</option>
+                            <option id="op2"value="Debit Card">Debit Card</option>
+                            <option id="op3"value="Cash">Cash</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="color" id="txtColor"     placeholder="Enter pet's Owner Name" class="form-control">
+                    </div>
+                    <button type="button" id="btnRegister" onclick="register();" class="btn btn-dark lesser-top-margin">Register NEW user</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Js/app.js"></script>
+    </body>
+</html>
